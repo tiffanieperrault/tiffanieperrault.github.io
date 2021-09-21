@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6, author {
+    font-family: 'El Messiri', sans-serif;
+    }
+body {
+    font-family: 'Bitter', serif;
+    background-color: #EDF3FD;
+    letter-spacing: 2px;
+    font-size: 1.3vw;
+    }
+h1 {
+    letter-spacing: 8px;
+    font-size: 2vw
+    }
+h2 {
+    letter-spacing: 4px;
+    font-size: 1.8vw;
+    }
+table {
+  border-spacing:4vw;
+}
+
+page_title {
+    letter-spacing: 4px;
+    font-size: 2.4vw;
+    font-variant-caps: small-caps;
+    text-align: center
+}
+section_title {
+    letter-spacing: 4px;
+    font-size: 2vw;
+    font-variant-caps: small-caps;
+    padding-bottom: 30px
+}
+paper {
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+    color: #008080;
+    font-weight: bold;
+    }
+paper_status {
+    font-size: 1vw;
+    color: #696969;
+    font-style: italic
+    }
+author {
+    font-size: 1.2vw;
+    color: #696969;
+    letter-spacing: 0.2px
+    }
+
+.sample-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 22vw;
+    background-image: url(images/DSC_0638.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+.sample-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 12vw;
+    width: 100%;
+    background-color: #4A5C78;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.1vw;
+    color: white;
+    text-align: center;
+    padding: 6vw;
+    flex-shrink: 0;
+    }
+.sample-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: MidnightBlue;
+    opacity: 0.3;
+    }
+.sample-header-section {
+    position: relative;
+    padding: 2vw 0 0;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+.sample-section-wrap {
+    position: relative;
+    background-color: white;
+    flex: auto;
+    margin-bottom: 8%;
+    }
+.sample-section {
+    position: relative;
+    max-width: 1000px;
+    margin-top: 20vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
+.navigation{
+    width: 20%;
+    background: #53566A;
+    height: 100%;
+    position: absolute;
+    text-align: right;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold;
+    line-height: 3;
+    font-variant-caps: small-caps;
+    font-size: 1.25vw;
+    letter-spacing: 0.8vw;
+    padding-right: 0.5vw;
+    color: #A1A4BE
+}
+
+a:link {
+  color: inherit;
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BCC2E0;
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  /*background-color: transparent;*/
+  text-decoration: none;
+}
+
+a.current {
+    color: #EDF3FD;
+    }
+
+.navigation ul {
+  list-style: none;
+
+  li {
+    position: absolute;
+  }
+}
+
+p {
+    line-height: 2;
+    padding-top: 2vw;
+    }
+
+
+section {
+    padding-top: 4%;
+    padding-bottom: 8%;
+    }
+
+.contact {
+    background-position: center;
+    background-size: 50%;
+    background-color: #EDF3FD;
+    }
+
+.btn {
+    padding: 1vw 1.2vw;
+    text-align: center;
+    display: inline-block;
+    font-family: 'El Messiri', sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 1.25vw;
+    border: none;
+    background-color: #BCC2E0;
+}
+
+.btn:hover {
+    color: #BCC2E0;
+    background-color: #A1A4BE;
+}
+
+img {
+  float: left;
+  padding: 1vw 1vw ;
+}
