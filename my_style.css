@@ -9,45 +9,46 @@ body {
     font-family: 'Bitter', serif;
     background-color: #EDF3FD;
     letter-spacing: 2px;
-    font-size: 1.3vw;
+    font-size: calc(.4em + 0.6vmin + 0.6vmax);
     }
 h1 {
     letter-spacing: 8px;
-    font-size: 2vw
+    font-size: calc(.6em + 0.6vmin + 0.6vmax);
     }
 h2 {
     letter-spacing: 4px;
-    font-size: 1.8vw;
+    font-size: calc(.5em + 0.6vmin + 0.6vmax);
     }
+
 table {
   border-spacing:4vw;
 }
 
 page_title {
     letter-spacing: 4px;
-    font-size: 2.4vw;
+    font-size: calc(.7em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
-    text-align: center
+    text-align: center;
 }
 section_title {
     letter-spacing: 4px;
-    font-size: 2vw;
+    font-size: calc(.5em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
     padding-bottom: 30px
 }
 paper {
     letter-spacing: 3px;
-    font-size: 1.5vw;
+    font-size: calc(.3em + 0.6vmin + 0.6vmax);
     color: #008080;
     font-weight: bold;
     }
 paper_status {
-    font-size: 1vw;
+    font-size: calc(.2em + 0.6vmin + 0.6vmax);
     color: #696969;
     font-style: italic
     }
 author {
-    font-size: 1.2vw;
+    font-size: calc(.3em + 0.6vmin + 0.6vmax);
     color: #696969;
     letter-spacing: 0.2px
     }
@@ -68,16 +69,17 @@ author {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 12vw;
+    height: max(5vh, 40px);
     width: 100%;
     background-color: #4A5C78;
     background-position: center;
     background-size: cover;
-    font-size: 1.1vw;
+    font-size: calc(.3em + 0.6vmin + 0.6vmax);
     color: white;
     text-align: center;
-    padding: 6vw;
+    padding: max(2vh, 20px);;
     flex-shrink: 0;
+    z-index: 10;
     }
 .sample-header::before {
     content: "";
@@ -107,10 +109,10 @@ author {
     }
 .sample-section {
     position: relative;
-    max-width: 1000px;
     margin-top: 20vw;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: calc(20% + min(70px, 3%));
+    margin-right: min(25%, 40px);
+    text-align: justify;
     }
 
 .navigation{
@@ -119,17 +121,16 @@ author {
     height: 100%;
     position: absolute;
     text-align: right;
-    top: 50%;
-    transform: translateY(-50%);
     font-family: 'El Messiri', sans-serif;
     font-weight: bold;
     line-height: 3;
     font-variant-caps: small-caps;
-    font-size: 1.25vw;
+    font-size: calc(.2em + 0.6vmin + 0.6vmax);
     letter-spacing: 0.8vw;
     padding-right: 0.5vw;
     color: #A1A4BE
 }
+
 
 a:link {
   color: inherit;
@@ -161,11 +162,10 @@ a.current {
 
 .navigation ul {
   list-style: none;
-
-  li {
-    position: absolute;
-  }
+  position: sticky;
+  top: max(50px, 5%);
 }
+
 
 p {
     line-height: 2;
@@ -190,7 +190,7 @@ section {
     display: inline-block;
     font-family: 'El Messiri', sans-serif;
     font-variant-caps: small-caps;
-    font-size: 1.25vw;
+    font-size: calc(.3em + 0.6vmin + 0.6vmax);
     border: none;
     background-color: #BCC2E0;
 }
@@ -203,4 +203,38 @@ section {
 img {
   float: left;
   padding: 1vw 1vw ;
+}
+
+@media screen and (max-width: 1060px){
+    .navigation{
+        width: 100%;
+        position: unset;
+        margin-top: 20%;
+    }
+
+    .navigation ul {
+        position: unset;
+        padding: 0;
+    }
+
+    .navigation ul > li {
+        display: inline-block;
+    }
+
+    .sample-section {
+        margin-top: 0px;
+        margin-left: min(70px, 3%);
+        margin-right: min(70px, 3%);;
+    }
+
+    h1 {
+        font-size: 11pt;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 10pt;
+        margin: 0;
+    }
+
 }
