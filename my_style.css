@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6, author {
-    font-family: 'El Messiri', sans-serif;
+body,h1,h2,h3,h4,h5,h6,author {
+    font-family: 'Lato', sans-serif;
     }
 body {
-    font-family: 'Bitter', serif;
     background-color: #EDF3FD;
     letter-spacing: 2px;
-    font-size: calc(.4em + 0.6vmin + 0.6vmax);
+    font-size: calc(.3em + 0.6vmin + 0.6vmax);
     }
 h1 {
     letter-spacing: 8px;
