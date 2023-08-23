@@ -19,6 +19,10 @@ h2 {
     font-size: calc(.3em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
     }
+h3 {
+    letter-spacing: 2px;
+    font-size: calc(.2em + 0.6vmin + 0.6vmax);
+    }
 
 table {
   border-spacing:4vw;
