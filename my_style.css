@@ -21,7 +21,7 @@ h2 {
     }
 h3 {
     letter-spacing: 2px;
-    font-size: calc(.15em + 0.6vmin + 0.6vmax);
+    font-size: calc(.1em + 0.6vmin + 0.6vmax);
     }
 
 table {
