@@ -186,8 +186,9 @@ section {
 
 .contact {
     background-position: center;
-    background-size: 50%;
-    background-color: #EDF3FD;
+    background-size: 30%;
+    background-color: #BCC2E0;
+    line-height:1.25;
     }
 
 .btn {
