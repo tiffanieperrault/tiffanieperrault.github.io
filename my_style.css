@@ -198,7 +198,8 @@ section {
     font-variant-caps: small-caps;
     font-size: calc(.3em + 0.6vmin + 0.6vmax);
     border: none;
-    background-color: #BCC2E0;
+    background-color: #53566A;
+    color: #A1A4BE;
 }
 
 .btn:hover {
