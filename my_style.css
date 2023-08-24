@@ -125,7 +125,7 @@ author {
     height: 100%;
     position: absolute;
     text-align: right;
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     line-height: 3;
     font-variant-caps: small-caps;
@@ -168,10 +168,6 @@ a.current {
   list-style: none;
   position: sticky;
   top: max(50px, 5%);
-}
-
-.navigation br{
-  line-height: 90%;
 }
 
 
