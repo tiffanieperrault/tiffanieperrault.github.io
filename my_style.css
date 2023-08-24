@@ -199,7 +199,6 @@ section {
     font-size: calc(.3em + 0.6vmin + 0.6vmax);
     border: none;
     background-color: #53566A;
-    color: white;
 }
 
 .btn:hover {
