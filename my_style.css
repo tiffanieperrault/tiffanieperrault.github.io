@@ -73,15 +73,15 @@ author {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: max(7.5vh, 60px);
+    height: max(10vh, 80px);
     width: 100%;
     background-color: #4A5C78;
     background-position: center;
     background-size: cover;
-    font-size: calc(.1em + 0.2vmin + 0.2vmax);
+    font-size: calc(.1em + 0.6vmin + 0.6vmax);
     color: white;
     text-align: center;
-    padding: max(3vh, 30px);;
+    padding: max(4vh, 40px);;
     flex-shrink: 0;
     z-index: 10;
     }
