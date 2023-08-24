@@ -168,8 +168,12 @@ a.current {
   list-style: none;
   position: sticky;
   top: max(50px, 5%);
-  line-height: 0.8em;
 }
+
+.navigation br{
+  line-height: 90%;
+}
+
 
 
 p {
