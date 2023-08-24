@@ -116,6 +116,7 @@ author {
     margin-top: 20vw;
     margin-left: calc(20% + min(70px, 3%));
     margin-right: calc(20% + min(70px, 3%));
+    width: 75%;
     text-align: left;
     }
 
