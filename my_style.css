@@ -137,7 +137,8 @@ author {
 
 
 a:link {
-  color: #BCC2E0;
+  color: inherit;
+  /*background-color: transparent;*/
   text-decoration: none;
 }
 
