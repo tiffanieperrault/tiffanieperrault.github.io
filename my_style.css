@@ -137,8 +137,8 @@ author {
 
 
 a:link {
-  color: inherit;
-  /*background-color: transparent;*/
+  color: #BCC2E0;
+  background-color: transparent;*/
   text-decoration: none;
 }
 
@@ -199,7 +199,6 @@ section {
     font-size: calc(.3em + 0.6vmin + 0.6vmax);
     border: none;
     background-color: #53566A;
-    color: #BCC2E0;
 }
 
 .btn:hover {
