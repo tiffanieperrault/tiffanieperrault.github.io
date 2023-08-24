@@ -16,7 +16,7 @@ h1 {
     }
 h2 {
     letter-spacing: 4px;
-    font-size: calc(.3em + 0.6vmin + 0.6vmax);
+    font-size: calc(.5em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
     }
 h3 {
