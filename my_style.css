@@ -184,9 +184,9 @@ section {
     }
 
 .contact {
-    background-position: center;
-    background-size: 20%;
-    background-color: #A1A4BE;
+    border-style: ridge;
+    border-color: #A1A4BE;
+    border-width: 8px;
     line-height:1;
     }
 
