@@ -116,7 +116,7 @@ author {
     margin-top: 20vw;
     margin-left: calc(20% + min(70px, 3%));
     margin-right: calc(20% + min(70px, 3%));
-    width: 75%;
+    padding-right: 40vw;
     text-align: left;
     }
 
@@ -182,7 +182,6 @@ p {
 section {
     padding-top: 4%;
     padding-bottom: 8%;
-    padding-right: 20%;
     }
 
 .contact {
