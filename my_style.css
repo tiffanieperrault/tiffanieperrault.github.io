@@ -64,7 +64,7 @@ paper {
     font-weight: bold;
     }
 paper_status {
-    font-size: calc(.1em + 0.6vmin + 0.6vmax);
+    font-size: calc(.075em + 0.5vmin + 0.5vmax);
     color: #696969;
     }
 author {
