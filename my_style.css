@@ -74,6 +74,7 @@ author {
     }
 paper_info {
   font-size: calc(.1em + 0.5vmin + 0.5vmax);
+  margin-top: 3px;
 }
 
 .sample-header {
