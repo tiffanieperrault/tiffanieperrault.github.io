@@ -55,7 +55,7 @@ section_title {
     letter-spacing: 4px;
     font-size: calc(.5em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
-    padding-bottom: 30px
+    padding-bottom: 5px
 }
 paper {
     letter-spacing: 2px;
