@@ -133,7 +133,7 @@ paper_info {
     }
 .sample-section {
     position: relative;
-    margin-top: 20vw;
+    margin-top: 8vw;
     margin-left: calc(20% + min(70px, 3%));
     margin-right: calc(15% + min(70px, 3%));
     text-align: left;
