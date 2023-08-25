@@ -77,6 +77,13 @@ paper_info {
   margin-top: 3px;
 }
 
+abstract {
+  line-height: 1.25;
+  padding-top: 1vw;
+  font-size: calc(.15em + 0.5vmin + 0.5vmax)
+}
+
+
 .sample-header {
     position: fixed;
     left: 0;
