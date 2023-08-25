@@ -5,10 +5,8 @@
 body,h1,h2,h3,h4,h5,h6,author {
     font-family: 'Lato', sans-serif;
 }
-body{
-    margin-left: 30px;
-    }
 body {
+    margin-left: 30px;
     background-color: #EDF3FD;
     letter-spacing: 2px;
     font-size: calc(.125em + 0.6vmin + 0.6vmax);
