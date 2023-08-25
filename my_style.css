@@ -58,19 +58,18 @@ section_title {
     padding-bottom: 30px
 }
 paper {
-    letter-spacing: 3px;
-    font-size: calc(.3em + 0.6vmin + 0.6vmax);
-    color: #008080;
+    letter-spacing: 2px;
+    font-size: calc(.2em + 0.6vmin + 0.6vmax);
+    color: #53566A;
     font-weight: bold;
     }
 paper_status {
-    font-size: calc(.2em + 0.6vmin + 0.6vmax);
+    font-size: calc(.1em + 0.6vmin + 0.6vmax);
     color: #696969;
-    font-style: italic
     }
 author {
-    font-size: calc(.3em + 0.6vmin + 0.6vmax);
-    color: #696969;
+    font-size: calc(.1em + 0.6vmin + 0.6vmax);
+    color: #53566A;
     letter-spacing: 0.2px
     }
 
