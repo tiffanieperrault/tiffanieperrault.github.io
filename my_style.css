@@ -109,7 +109,7 @@ author {
     position: relative;
     background-color: white;
     flex: auto;
-    margin-bottom: 8%;
+    margin-bottom: max(11vh, 88px);
     }
 .sample-section {
     position: relative;
