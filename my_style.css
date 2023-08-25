@@ -24,6 +24,14 @@ h3 {
     font-size: calc(.1em + 0.6vmin + 0.6vmax);
     }
 
+td {
+  height: 1em;
+}
+
+th {
+  height: 2em;
+}
+
 page_title {
     letter-spacing: 4px;
     font-size: calc(1.2em + 0.6vmin + 0.6vmax);
