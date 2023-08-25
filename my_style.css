@@ -8,7 +8,7 @@ body,h1,h2,h3,h4,h5,h6,author {
 body {
     background-color: #EDF3FD;
     letter-spacing: 2px;
-    font-size: calc(.15em + 0.6vmin + 0.6vmax);
+    font-size: calc(.125em + 0.6vmin + 0.6vmax);
     }
 h1 {
     letter-spacing: 8px;
