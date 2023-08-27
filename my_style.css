@@ -70,16 +70,21 @@ paper_status {
 author {
     font-size: calc(.1em + 0.6vmin + 0.6vmax);
     color: #53566A;
-    letter-spacing: 0.2px
+    letter-spacing: 0.2px;
     }
 paper_info {
   font-size: calc(.1em + 0.5vmin + 0.5vmax);
   margin-top: 3px;
 }
 
+paper_details {
+  line-height: 1.75;
+  padding-top: 0.2vm;
+}
+
 abstract {
   line-height: 1.25;
-  padding-top: 1vw;
+  padding-top: 0.1vw;
   font-size: calc(.15em + 0.5vmin + 0.5vmax)
 }
 
