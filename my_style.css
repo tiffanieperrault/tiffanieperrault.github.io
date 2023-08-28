@@ -82,10 +82,10 @@ paper_info {
   padding-bottom: 1vw;
 }
 
-abstract {
+.abstract {
   line-height: 1.25;
   padding-top: 0.1vw;
-  font-size: calc(.15em + 0.5vmin + 0.5vmax)
+  font-size: calc(.125em + 0.5vmin + 0.5vmax)
 }
 
 
