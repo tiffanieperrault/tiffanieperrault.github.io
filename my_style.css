@@ -77,9 +77,9 @@ paper_info {
   margin-top: 3vw;
 }
 
-paper_details {
+.paper_details {
   line-height: 1.75;
-  padding-top: 0.2vw;
+  padding-bottom: 1vw;
 }
 
 abstract {
@@ -151,7 +151,7 @@ abstract {
     }
 
 .title {
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
 }
 
 .navigation{
