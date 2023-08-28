@@ -55,7 +55,7 @@ section_title {
     letter-spacing: 4px;
     font-size: calc(.5em + 0.6vmin + 0.6vmax);
     font-variant-caps: small-caps;
-    padding-bottom: 1vm;
+    padding-bottom: 1vw;
 }
 paper {
     letter-spacing: 2px;
@@ -74,12 +74,12 @@ author {
     }
 paper_info {
   font-size: calc(.1em + 0.5vmin + 0.5vmax);
-  margin-top: 3vm;
+  margin-top: 3vw;
 }
 
 paper_details {
   line-height: 1.75;
-  padding-top: 0.2vm;
+  padding-top: 0.2vw;
 }
 
 abstract {
@@ -150,6 +150,10 @@ abstract {
     margin-right: calc(15% + min(70px, 3%));
     text-align: left;
     }
+
+.title {
+  margin-bottom: 5vw;
+}
 
 .navigation{
     width: 20%;
