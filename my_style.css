@@ -83,9 +83,9 @@ paper_info {
 }
 
 .abstract {
-  line-height: 1.25;
+  line-height: 1.5;
   padding-top: 0.1vw;
-  font-size: calc(.125em + 0.5vmin + 0.5vmax)
+  font-size: calc(.135em + 0.5vmin + 0.5vmax)
 }
 
 
