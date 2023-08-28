@@ -9,6 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="my_style.css">
 
+    
+    <script>
+    function ShowAbstract() {
+      var x = document.getElementById("id-abs");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
     <title>Tiffanie Perrault | Research</title>
 </head>
 
@@ -72,7 +84,7 @@
                 <br>
         
                 <paper_info>
-                    <i class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract
+                    <span onclick="ShowAbstract()"><i class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract </span>
                     &nbsp; |  &nbsp;
                     <a  href="/docs/PerraultT_jmp_current.pdf"
                         target="_blank" rel="opener">
@@ -100,7 +112,7 @@
                 <section_title>Working Papers</section_title>
             </div>
 
-            <div class="paper_details">
+            <div class="paper_details" id="id-abs">
                 <paper>
                     Weeding out the Dealers? The Economics of Cannabis Legalization
                 </paper>
