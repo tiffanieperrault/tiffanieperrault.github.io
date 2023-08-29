@@ -86,7 +86,7 @@ paper_info {
   line-height: 1.5;
   padding-top: 0.1vw;
   font-size: calc(.135em + 0.5vmin + 0.5vmax);
-  display:none;
+  display: none;
 }
 
 
