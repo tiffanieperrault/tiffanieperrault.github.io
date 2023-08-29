@@ -13,14 +13,23 @@
     <script>
     function ShowAbstract(id) {
         var x = document.getElementById(id);
-        var arrow = document.getElementById(id + "-arrow");
         if (x.style.display == "none") {
             x.style.display = "block";
-            arrow.className = 'fa fa-angle-down fa-lg';
-      } else {
-        x.style.display = "none";
-        arrow.className = 'fa fa-angle-right fa-lg';    
-      }
+        } else {
+            x.style.display = "none";  
+        }
+    }
+
+    function ShowHide(id1, id2) {
+        var x1 = document.getElementById(id1);
+        var x2 = document.getElementById(id2);
+        if (x1.style.display == "none") {
+            x1.style.display = "block";
+            x2.style.display = "none";
+        } else {
+            x1.style.display = "none"; 
+            x2.style.display = "block";
+        }
     }
     </script>
 
@@ -87,8 +96,11 @@
                 <br>
         
                 <paper_info>
-                    <a onclick="ShowAbstract('id-abs-jmp')">
-                        <i id="arrow-id-abs-jmp" class="fa fa-angle-right fa-lg" aria-hidden="true"></i> Abstract 
+                    <a id="show-id-abs-jmp" onclick="ShowAbstract('id-abs-jmp'); ShowHide('show-id-abs-jmp', 'show-id-abs-jmp')">
+                        <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i> View abstract 
+                    </a>
+                    <a style="display:none" id="hide-id-abs-jmp" onclick="ShowAbstract('id-abs-jmp'); ShowHide('show-id-abs-jmp', 'show-id-abs-jmp')">
+                        <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i> Hide abstract 
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="/docs/PerraultT_jmp_current.pdf"
