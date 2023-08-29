@@ -11,24 +11,17 @@
 
     
     <script>
-    function ShowAbstract(id) {
+    function ShowAbstract(id, arrowid) {
         var x = document.getElementById(id);
+        var arrow = document.getElementById(arrowid);
         if (x.style.display == "none") {
             x.style.display = "block";
+            arrow.className = "fa fa-angle-down fa-lg";
+            arrow.ariaHidden= "true";
         } else {
-            x.style.display = "none";  
-        }
-    }
-
-    function ShowHide(id1, id2) {
-        var x1 = document.getElementById(id1);
-        var x2 = document.getElementById(id2);
-        if (x1.style.display == "none") {
-            x1.style.display = "block";
-            x2.style.display = "none";
-        } else {
-            x1.style.display = "none"; 
-            x2.style.display = "block";
+            x.style.display = "none";
+            arrow.className = "fa fa-angle-right fa-lg";
+            arrow.ariaHidden= "true";
         }
     }
     </script>
@@ -96,11 +89,8 @@
                 <br>
         
                 <paper_info>
-                    <a id="show-id-abs-jmp" onclick="ShowAbstract('id-abs-jmp'); ShowHide('show-id-abs-jmp', 'hide-id-abs-jmp')">
-                        <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i> View abstract 
-                    </a>
-                    <a style="display:none" id="hide-id-abs-jmp" onclick="ShowAbstract('id-abs-jmp'); ShowHide('show-id-abs-jmp', 'hide-id-abs-jmp')">
-                        <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i> Hide abstract 
+                    <a onclick="ShowAbstract('id-abs-jmp','arrow-id-abs-jmp')">
+                        <i id="arrow-id-abs-jmp' class="fa fa-angle-right fa-lg" aria-hidden="true"></i> Abstract 
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="/docs/PerraultT_jmp_current.pdf"
@@ -123,7 +113,7 @@
                 </div>
             </div>
         </section>
-
+<!--
         <section id="working-papers">
             <div class="title">
                 <section_title>Working Papers</section_title>
@@ -285,6 +275,8 @@
             
 
         </section>
+    -->
+    
     </div>
 </div>
 
