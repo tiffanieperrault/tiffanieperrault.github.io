@@ -65,7 +65,6 @@ paper {
     }
 paper_status {
     font-size: calc(.075em + 0.5vmin + 0.5vmax);
-    color: #696969;
     }
 author {
     font-size: calc(.1em + 0.6vmin + 0.6vmax);
@@ -145,7 +144,7 @@ paper_info {
 .sample-section {
     position: relative;
     margin-top: 20vw;
-    margin-left: calc(20% + min(70px, 3%));
+    <!--margin-left: calc(20% + min(70px, 3%)); -->
     margin-right: calc(15% + min(70px, 3%));
     text-align: left;
     }
