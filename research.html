@@ -11,12 +11,15 @@
 
     
     <script>
-    function ShowAbstract() {
-      var x = document.getElementById("id-abs");
-      if (x.style.display == "none") {
-        x.style.display = "block";
+    function ShowAbstract(id) {
+        var x = document.getElementById(id);
+        var arrow = document.getElementById(id + "-arrow");
+        if (x.style.display == "none") {
+            x.style.display = "block";
+            arrow.className = 'fa fa-angle-down fa-lg';
       } else {
         x.style.display = "none";
+        arrow.className = 'fa fa-angle-right fa-lg';    
       }
     }
     </script>
@@ -29,7 +32,7 @@
 <div class="sample-header">
 
     <div style="color: #53566A; text-align: left; margin-left: 2vw; margin-top: 2vw; font-size: calc(0.35em + 0.4vmin + 0.4vmax);">
-        <i class="fa fa-camera-retro lg" aria-hidden="true"></i>: Déziel Lake, QC <br>
+        <i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i>: Déziel Lake, QC <br>
         <!--
         <i class="fa fa-map-marker" aria-hidden="true"></i> 48&deg 33'22.968''N ; 74&deg 23'3.66''W
         -->
@@ -84,8 +87,8 @@
                 <br>
         
                 <paper_info>
-                    <a onclick="ShowAbstract()">
-                        <i class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract 
+                    <a onclick="ShowAbstract('id-abs-jmp')">
+                        <i id="arrow-id-abs-jmp" class="fa fa-angle-right fa-lg" aria-hidden="true"></i> Abstract 
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="/docs/PerraultT_jmp_current.pdf"
@@ -94,7 +97,7 @@
                     </a>
                 </paper_info>
     
-                <div class="abstract" id="id-abs"> 
+                <div class="abstract" id="id-abs-jmp" style="display: none;"> 
                     To which extent do cannabis legalization policies undermine the black market?
                     I assemble a novel dataset on US city-level prices and THC potencies, used as proxies for quality, in both prohibition and legalization environments.
                     I employ both difference-in-difference and event-study designs and show legalizing recreational cannabis yields an immediate and sensible drop in equilibrium prices (up to 18%), as well as a delayed and limited (up to 2%) increase in equilibrium quality.
@@ -131,8 +134,8 @@
                 <br>
     
                 <paper_info>
-                    <a onclick="ShowAbstract()">
-                        <i class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract
+                    <a onclick="ShowAbstract('id-abs-weeding')">
+                        <i id="arrow-id-abs-weeding" class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037049"
@@ -145,7 +148,7 @@
                     </a>  
                 </paper_info>
     
-                <div class="abstract" id="id-abs"> 
+                <div class="abstract" id="id-abs-weeding" style="display: none;"> 
                     We model cannabis consumption in risky environments under prohibition and legalization. 
                     Combining legalization with penalties against agents on the illegal market, as well as improved quality on the legal market can control <i>post-legalization</i> consumption while undermining the illegal market.
                     Data from the US illustrates the efficacy of such policy, pinpointing issues in recent legalization policies and proposing improved strategies.
@@ -169,8 +172,8 @@
                 <br>
 
                 <paper_info>
-                    <a onclick="ShowAbstract()">
-                        <i class="fa fa-angle-up fa-lg" aria-hidden="true"></i> Abstract
+                    <a onclick="ShowAbstract('id-abs-tfwp')">
+                        <i id="arrow-id-abs-tfwp" class="fa fa-angle-right fa-lg" aria-hidden="true"></i> Abstract
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="https://cream-migration.org/publ_uploads/CDP_11_23.pdf"
@@ -183,7 +186,7 @@
                     </a>
                 </paper_info>
 
-                <div class="abstract" id="id-abs"> 
+                <div class="abstract" id="id-abs-tfwp" style="display: none;"> 
                     Can we undermine human smuggling and control immigration? 
                     We model the supply of human smuggling services and the demand from workers in low wage countries.
                     We suggest employing regulated temporary visas to eliminate smugglers and fulfill labor needs in host countries. 
