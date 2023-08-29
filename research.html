@@ -18,10 +18,12 @@
             x.style.display = "block";
             arrow.className = "fa fa-angle-down fa-lg";
             arrow.ariaHidden= "true";
+            arrow.style="margin-right: none";
         } else {
             x.style.display = "none";
             arrow.className = "fa fa-angle-right fa-lg";
             arrow.ariaHidden= "true";
+            arrow.style="margin-right: 5px";
         }
     }
     </script>
@@ -137,7 +139,11 @@
     
                 <paper_info>
                     <a style="color: #A1A4BE;" onclick="ShowAbstract('id-abs-weeding', 'arrow-id-abs-weeding')">
-                        <i id="arrow-id-abs-weeding" class="fa fa-angle-right fa-lg" aria-hidden="true"></i> Abstract
+                        <i  id="arrow-id-abs-weeding" 
+                            class="fa fa-angle-right fa-lg" 
+                            aria-hidden="true"
+                            style="margin-right: 5px;"
+                            ></i> Abstract
                     </a>
                     &nbsp; |  &nbsp;
                     <a  href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037049"
@@ -199,7 +205,6 @@
             </div>
             
         </section>
-        -->
 
         <section id="in-progress">
             <div class="title">
